@@ -19,6 +19,8 @@ Test ray by Bounding volume hierarchy(BVH) to accelerate.
 
 ## Part 3: Direct Illumination
 
+Two direct sampling functions: uniform hemisphere sampling and lighting sampling.
+
 ### Uniform hemisphere sampling
 
 <img src="docs/images/part3_2.png" height="300"/>
@@ -29,6 +31,8 @@ Test ray by Bounding volume hierarchy(BVH) to accelerate.
 
 ## Part 4: Global Illumination
 
-1024 samples per pixel.
+Combined direct illumination with indirect illumination to get global illumination effect. Compared to direct lighting, the BSDF is sampled at the hit point and recursively trace a ray in that sample direction.
+
+Bunny with 1024 samples per pixel.
 
 <img src="docs/images/part4_12.png" width="400"/>  
