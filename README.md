@@ -1,6 +1,8 @@
 # PathTracer1
 Implemented a path tracing algorithm which simulates the interaction of light rays with primitive shapes (spheres and triangles), to allow for the rendering of 3D meshes with realistic lighting.
 
+<br/>
+
 ## Part 1: Ray Generation and Intersection
 
 Started by setting up basic ray generation and allowing for the intersection of rays with spheres and triangles, including the calculation of normals to allow for simple, fast shading.
