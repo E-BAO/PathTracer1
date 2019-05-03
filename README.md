@@ -33,6 +33,6 @@ Two direct sampling functions: uniform hemisphere sampling and lighting sampling
 
 Combined direct illumination with indirect illumination to get global illumination effect. Compared to direct lighting, the BSDF is sampled at the hit point and recursively trace a ray in that sample direction.
 
-Bunny with 1024 samples per pixel.
 
 <img src="docs/images/part4_12.png" width="400"/>  
+Bunny with 1024 samples per pixel.
